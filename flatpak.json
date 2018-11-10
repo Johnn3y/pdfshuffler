@@ -48,7 +48,7 @@
       "sources" : [
         {
           "url" : "https://github.com/Johnn3y/pdfshuffler",
-          "commit" : "e6fae40b6c4440d53d6391c801786c39f6fbe749",
+          "commit" : "8e408c819f85b012e4b282fd7b257c461b19c887",
           "type" : "git"
         }
       ],
