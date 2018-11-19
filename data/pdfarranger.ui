@@ -160,6 +160,19 @@
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <child>
+              <object class="GtkButton" id="imagemenuitem_reverse_order">
+                <property name="label" translatable="yes">Reverse Order</property>
+                <property name="visible">True</property>
+                <property name="sensitive">False</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <signal name="clicked" handler="reverse_order" swapped="no"/>
+              </object>
+              <packing>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
               <object class="GtkButton" id="toolbutton_rotate_left">
                 <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
@@ -264,4 +277,3 @@
     </child>
   </object>
 </interface>
-
